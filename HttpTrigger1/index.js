@@ -1,4 +1,5 @@
 const Crypto = require('crypto');
+
 module.exports = async function (context, req) {
     const key = 'QpcTkEczVcZF/voqotpJCuwsNnzBF1baq2LbcwtndQOjkGfa2Am4UA==';
     const hmac = Crypto.createHmac('sha1', key);
